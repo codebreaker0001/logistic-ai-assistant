@@ -3,6 +3,8 @@ import os
 import sys
 import urllib.parse
 
+sys.stdout.reconfigure(encoding="utf-8")
+
 import pandas as pd
 import pyodbc
 from dotenv import load_dotenv
